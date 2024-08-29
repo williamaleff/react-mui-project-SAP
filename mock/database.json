@@ -1,0 +1,77 @@
+{
+  "pessoas": [
+    {
+      "nomeCompleto": "William Alefe Lucas Teixeira",
+      "email": "alefewilliam@gmail.com",
+      "funcaoId": "2",
+      "id": 1,
+      "informacoes": "TI celular - 88996720754"
+    },
+    {
+      "id": 2,
+      "nomeCompleto": "Francisco Obete de Souza",
+      "email": "Obete.souza@sap",
+      "funcaoId": 1,
+      "informacoes": "Adjunto"
+    }
+  ],
+  "funcoes": [
+    {
+      "nome": "Policial Penal",
+      "id": 1
+    },
+    {
+      "nome": "TI",
+      "id": 2
+    }
+  ],
+  "suporte": [
+    {
+      "id": 1,
+      "tipoId": 1,
+      "descricao": "Erro no link da videoconferencia",
+      "pessoaId": 1,
+      "horario": "14:59",
+      "data": "17/08/2024",
+      "chamadoGlpi": "123456780"
+    },
+    {
+      "chamadoGlpi": "12345678",
+      "data": "2354",
+      "horario": "1234",
+      "descricao": "teste",
+      "tipoId": 1,
+      "pessoaId": 1,
+      "id": 2
+    }
+  ],
+  "tipos": [
+    {
+      "nome": "Hardware/Software",
+      "id": 1
+    },
+    {
+      "nome": "CFTV",
+      "id": 2
+    },
+    {
+      "nome": "Impressoras",
+      "id": 3
+    },
+    {
+      "nome": "Telefonia",
+      "id": 4
+    },
+    {
+      "nome": "Solicitação de Material",
+      "id": 5
+    },
+    {
+      "nome": "Abertura de Chamados",
+      "id": 6
+    }
+  ],
+  "auth": {
+    "accessToken": "aaaaaa.bbbbbbb.ccccccc"
+  }
+}
